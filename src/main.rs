@@ -10,7 +10,7 @@ fn diamond(x : f32, y:f32) -> bool {
 
 fn main() {
 
-    let mut c  = mk::MontoCarlo::new(&'circle, 1000000);
+    let mut c  = mk::MontoCarlo::new(circle, 1000000);
     c.simulate();
     println!("{:?}",c);
     println!("Hits {:.8}", c.hits()*4.0);

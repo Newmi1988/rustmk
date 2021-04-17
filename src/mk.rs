@@ -14,11 +14,11 @@ pub struct MontoCarlo <F: 'static +  Send + Fn(f32,f32) -> bool> {
     max_iter : u32 
 }
 
-impl <F: Send + Fn(f32,f32) -> bool> std::clone::Clone for MontoCarlo<F> {
-    fn clone(&self) -> Self {
-        *self
-    }
-}
+// impl <F: Send + Fn(f32,f32) -> bool> std::clone::Clone for MontoCarlo<F> {
+//     fn clone(&self) -> Self {
+//         *self
+//     }
+// }
 
 // impl <F: Send + Fn(f32,f32) -> bool> Copy for MontoCarlo<F> {}
 
