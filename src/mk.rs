@@ -1,6 +1,5 @@
 use std::fmt;
 use rand::prelude::*;
-use std::thread;
 use std::marker::Send;
 
 
