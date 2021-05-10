@@ -5,7 +5,7 @@ fn circle(x : f32, y:f32) -> bool {
 }
 
 fn diamond(x : f32, y:f32) -> bool {
-    return x + y < 1.0
+    return x + y <= 1.0
 }
 
 fn main() {
